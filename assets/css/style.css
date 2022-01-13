@@ -153,6 +153,15 @@ nav {
   text-decoration: none;
   color: #ff008e;
 }
+/* About */
+#about{
+    background-image: url(../img/cloud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;  
+    margin-top: 30px;
+}
 
 /* Gallery Css */
 .gallery {
