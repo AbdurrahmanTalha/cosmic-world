@@ -5,12 +5,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Style sheets -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Cosmic World</title>
 </head>
 
-<body>
 
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="">
+            </div>
+            <input type="checkbox" name="" id="nav-toggler">
+            <label class="nav-toggler-icon"for="nav-toggler">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="container">
+            <div class="banner">
+                <div class="banner-left">
+                    <h1>Cartoons and Anime series Stream anytime on <span class="highlights">Cosmic World</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo dolor nisi magni mollitia officia
+                        ea, nam natus repellendus dicta eveniet!</p>
+                    <button class="primary-btn">Browse Now</button>
+                </div>
+                <div class="banner-right">
+                    <img src="./assets/img/about.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="container">
+        <section id="feature">
+            <div class="section-title">
+                <h2>Fea<span class="highlights">t</span>ure</h2>
+            </div>
+            <div class="feature">
+                <div class="card">
+                    <i class="card-icon fas fa-book"></i>
+                    <h3>Creative Story</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, officia tempora ab architecto aut
+                        quidem.</p>
+                    <a href=""> Read More</a>
+                </div>
+                <div class="card">
+                    <i class="card-icon fas fa-book"></i>
+                    <h3>4k Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, officia tempora ab architecto aut
+                        quidem.</p>
+                    <a href=""> Read More</a>
+                </div>
+                <div class="card">
+                    <i class="card-icon fas fa-star"></i>
+                    <h3>Super Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, officia tempora ab architecto aut
+                        quidem.</p>
+                    <a href=""> Read More</a>
+                </div>
+                <div class="card">
+                    <i class="card-icon fas fa-lock"></i>
+                    <h3>Highly Secured</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, officia tempora ab architecto aut
+                        quidem.</p>
+                    <a href=""> Read More</a>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="section-title">
+                <h2>Gal<span class="highlights">L</span>ery</h2>
+            </div>
+            <div class="gallery">
+                <div class="photo">
+                    <img src="./assets/img/godzilla.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/godzilla.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/godzilla.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/godzilla.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/godzilla.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/godzilla.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="section-title">
+                <h2>Con<span class="highlights">T</span>act</h2>
+            </div>
+            <div class="contact">
+                <div class="contact-left">
+                    <img src="./assets/img/contact.png" alt="">
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="" class="text-field" id="" placeholder="Your Name">
+                        <input type="email" name="" class="text-field" placeholder="Your Email">
+                        <textarea name="" placeholder="Your Message" class="text-field" id="" cols="30"
+                            rows="10"></textarea>
+                        <button type="submit" class="primary-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <small>Copyright &copy; all rights reserved by<span class="highlights"> Cosmic World </span>For 2022 to
+            3000</small>
+    </footer>
 </body>
 
 </html>
